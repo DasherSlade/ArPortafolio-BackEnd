@@ -1,4 +1,4 @@
-package com.portfolio.Arprograma.Security.Repository;
+package com.portfolio.Arprograma.security.Repository;
 
 import com.portfolio.Arprograma.Security.Entity.Rol;
 import com.portfolio.Arprograma.Security.Enums.RolNombre;
