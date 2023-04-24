@@ -2,7 +2,7 @@ package com.portfolio.Arprograma.security.Service;
 
 import com.portfolio.Arprograma.Security.Entity.Rol;
 import com.portfolio.Arprograma.Security.Enums.RolNombre;
-import com.portfolio.Arprograma.Security.Repository.iRolRepository;
+import com.portfolio.Arprograma.security.Repository.iRolRepository;
 import java.util.Optional;
 import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
