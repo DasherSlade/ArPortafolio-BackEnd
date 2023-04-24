@@ -1,8 +1,8 @@
-package com.portfolio.Arprograma.security;
+package com.portfolio.Arprograma.Security;
 
-import com.portfolio.Arprograma.security.Service.UserDetailsImpl;
-import com.portfolio.Arprograma.security.jwt.JwtEntryPoint;
-import com.portfolio.Arprograma.security.jwt.JwtTokenFilter;
+import com.portfolio.Arprograma.Security.Service.UserDetailsImpl;
+import com.portfolio.Arprograma.Security.jwt.JwtEntryPoint;
+import com.portfolio.Arprograma.Security.jwt.JwtTokenFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

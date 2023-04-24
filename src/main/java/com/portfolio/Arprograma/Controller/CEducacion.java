@@ -3,7 +3,7 @@ package com.portfolio.Arprograma.Controller;
 import com.portfolio.Arprograma.Dto.dtoEducacion;
 import com.portfolio.Arprograma.Entity.Educacion;
 import com.portfolio.Arprograma.Service.SEducacion;
-import com.portfolio.Arprograma.security.Controller.Mensaje;
+import com.portfolio.Arprograma.Security.Controller.Mensaje;
 import java.util.List;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;

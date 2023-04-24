@@ -1,4 +1,4 @@
-package com.portfolio.Arprograma.security.jwt;
+package com.portfolio.Arprograma.Security.jwt;
 
 import com.portfolio.Arprograma.Security.Entity.UsuarioPrincipal;
 import io.jsonwebtoken.ExpiredJwtException;

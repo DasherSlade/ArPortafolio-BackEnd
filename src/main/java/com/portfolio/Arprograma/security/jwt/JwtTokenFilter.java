@@ -1,6 +1,6 @@
-package com.portfolio.Arprograma.security.jwt;
+package com.portfolio.Arprograma.Security.jwt;
 
-import com.portfolio.Arprograma.security.Service.UserDetailsImpl;
+import com.portfolio.Arprograma.Security.Service.UserDetailsImpl;
 import java.io.IOException;
 import javax.servlet.FilterChain;
 import javax.servlet.ServletException;

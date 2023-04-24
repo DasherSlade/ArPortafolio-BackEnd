@@ -3,7 +3,7 @@ package com.portfolio.Arprograma.Controller;
 import com.portfolio.Arprograma.Dto.dtoHys;
 import com.portfolio.Arprograma.Entity.hys;
 import com.portfolio.Arprograma.Service.Shys;
-import com.portfolio.Arprograma.security.Controller.Mensaje;
+import com.portfolio.Arprograma.Security.Controller.Mensaje;
 import java.util.List;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
