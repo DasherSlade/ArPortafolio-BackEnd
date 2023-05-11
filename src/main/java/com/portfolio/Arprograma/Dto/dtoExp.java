@@ -8,13 +8,16 @@ public class dtoExp {
     private String nombreExp;
     @NotBlank
     private String descripcionExp;
+    @NotBlank
+    private String img;
 
     public dtoExp() {
     }
 
-    public dtoExp(String nombreExp, String descripcionExp) {
+    public dtoExp(String nombreExp, String descripcionExp, String img) {
         this.nombreExp = nombreExp;
         this.descripcionExp = descripcionExp;
+        this.img = img;
     }
 
     public String getNombreExp() {
@@ -32,7 +35,12 @@ public class dtoExp {
     public void setDescripcionExp(String descripcionExp) {
         this.descripcionExp = descripcionExp;
     }
-    
-    
-    
+
+    public String getImg() {
+        return img;
+    }
+
+    public void setImg(String img) {
+        this.img = img;
+    }
 }

@@ -1,9 +1,11 @@
 com\portfolio\Arprograma\Controller\CHys.class
 com\portfolio\Arprograma\Dto\dtoEducacion.class
 com\portfolio\Arprograma\Service\Shys.class
+com\portfolio\Arprograma\Service\SProyectos.class
 com\portfolio\Arprograma\Security\MainSecurity.class
 com\portfolio\Arprograma\Entity\Persona.class
 com\portfolio\Arprograma\Security\Service\RolService.class
+com\portfolio\Arprograma\Repository\RPro.class
 com\portfolio\Arprograma\Service\SExperiencia.class
 com\portfolio\Arprograma\Controller\CExp.class
 com\portfolio\Arprograma\Repository\RExperiencia.class
@@ -15,6 +17,7 @@ com\portfolio\Arprograma\Security\jwt\JwtEntryPoint.class
 com\portfolio\Arprograma\Security\Repository\iRolRepository.class
 com\portfolio\Arprograma\Security\Entity\Usuario.class
 com\portfolio\Arprograma\Controller\PersonaController.class
+com\portfolio\Arprograma\Controller\CProyectos.class
 com\portfolio\Arprograma\Security\Dto\JwtDto.class
 com\portfolio\Arprograma\Repository\IPersonaRepository.class
 com\portfolio\Arprograma\Security\Entity\UsuarioPrincipal.class
@@ -29,6 +32,7 @@ com\portfolio\Arprograma\Security\jwt\JwtProvider.class
 com\portfolio\Arprograma\Security\Repository\iUsuarioRepository.class
 com\portfolio\Arprograma\Dto\dtoHys.class
 com\portfolio\Arprograma\Security\Entity\Rol.class
+com\portfolio\Arprograma\Dto\dtoProyectos.class
 com\portfolio\Arprograma\Security\Controller\Mensaje.class
 com\portfolio\Arprograma\Repository\Rhys.class
 com\portfolio\Arprograma\Entity\Educacion.class
@@ -37,4 +41,5 @@ com\portfolio\Arprograma\Dto\dtoPersona.class
 com\portfolio\Arprograma\Security\jwt\JwtTokenFilter.class
 com\portfolio\Arprograma\Repository\REducacion.class
 com\portfolio\Arprograma\Entity\ExpLaboral.class
+com\portfolio\Arprograma\Entity\Proyectos.class
 com\portfolio\Arprograma\Security\Service\UsuarioService.class

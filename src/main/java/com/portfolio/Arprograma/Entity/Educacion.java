@@ -13,13 +13,15 @@ public class Educacion {
     private int id;
     private String nombreEdu;
     private String descripcionEdu;
+    private String img;
 
     public Educacion() {
     }
 
-    public Educacion(String nombreEdu, String descripcionEdu) {
+    public Educacion(String nombreEdu, String descripcionEdu, String img) {
         this.nombreEdu = nombreEdu;
         this.descripcionEdu = descripcionEdu;
+        this.img = img;
     }
 
     public int getId() {
@@ -44,5 +46,13 @@ public class Educacion {
 
     public void setDescripcionEdu(String descripcionEdu) {
         this.descripcionEdu = descripcionEdu;
+    }
+
+    public String getImg() {
+        return img;
+    }
+
+    public void setImg(String img) {
+        this.img = img;
     }
 }
