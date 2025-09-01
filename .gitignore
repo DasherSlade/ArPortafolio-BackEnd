@@ -31,3 +31,16 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Java / Maven / Gradle
+target/
+*.log
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+bin/
